@@ -78,8 +78,6 @@ I also familiarized myself with structure with HTML files and containers with re
 
 I want to continue to create more projects and become more conversant with building in frontend using HTML and CSS. I'm also looking to start integrating frameworks like React.JS, as it significantly streamlines the development process and reflect the modern standards of web development, with more functionality.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
 
 - GitHub - [egaze](https://www.your-site.com)
