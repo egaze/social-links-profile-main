@@ -1,0 +1,114 @@
+/* root */
+:root {
+    --clr-primary-Green: #c5f82a;
+    
+    --clr-neutral-white: #ffffff;
+    --clr-neutral-grey: hsl(0, 0%, 20%);
+    --clr-neutral-dark-grey: hsl(0, 0%, 12%);
+    --clr-neutral-off-black: hsl(0, 0%, 8%);
+
+    --ff: 'Inter', sans-serif;
+    --fs-body: 0.875rem;
+    --fs-heading: 1.375rem;
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+}
+
+/* reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    line-height: 1.1;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    font-style: italic;
+    color: var(--clr-primary-Green);
+    margin-inline: auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    color: var(--clr-neutral-white);
+    text-decoration: none;
+}
+
+body {
+    text-align: center;
+    font-family: var(--ff);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-body);
+    color: var(--clr-neutral-white);
+    background: var(--clr-neutral-off-black);
+}
+
+/* text-styles */
+.user-name {
+    font-size: var(--fs-heading);
+    font-weight: var(--fw-600);
+    margin-bottom: .5rem;
+}
+
+.user-location {
+    color: var(--clr-primary-Green);
+    font-weight: var(--fw-600);
+    margin-bottom: 1.25rem;
+}
+
+.list-item {
+    border-radius: .3rem;
+    display: block;
+    width: 100%;
+    padding: .7rem;
+    background: var(--clr-neutral-grey);
+    text-align: center;
+    transition: background .3s ease, color .3s ease;
+}
+
+.list-item:hover {
+    background-color: var(--clr-primary-Green);
+    color: var(--clr-neutral-off-black)
+}
+
+/* layout-styles */
+.wrapper {
+    display: grid;
+    place-items: center;
+    min-height: 100dvh;
+}
+.profile-container {
+    width: 25em;
+    padding: 1.75rem;
+    background-color: var(--clr-neutral-dark-grey);
+    border-radius: .6rem;
+}
+
+.social-links {
+    margin-top: 1.5rem
+}
+.social-links * + * {
+    margin-top: .75rem;
+}
+
+/* general-styles */
+.user-image {
+    width: 6em;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.user-description {
+    font-size: 13px;
+}
