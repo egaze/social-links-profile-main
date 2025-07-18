@@ -86,5 +86,6 @@ I want to continue to create more projects and become more conversant with build
 - Frontend Mentor - [@egaze](https://www.frontendmentor.io/profile/egaze)
 - Twitter/X - [@eyiram_g](https://www.twitter.com/eyiram_g)
 
+This page is also being hosted on [Netlify](eyiram-gaze-social-links.netlify.app)
 
 **Thank You for reading to the end!**
